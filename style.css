@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+input[type=text]{
+    border:1px solid darkgrey;
+}
+
+.container {
+    display: flex;
+
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    
+}
+.results-list{
+    display: flex;
+    flex-direction: column;
+}
+li {
+
+    list-style-type: none;
+
+
+}
+
+.hidden{
+    display: none;
+}
+.searchButton{
+    border: 1px solid lightgrey;
+}
+.list-item{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 1em 0;
+    padding: .5em;
+}
